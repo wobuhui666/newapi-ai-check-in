@@ -1,8 +1,6 @@
 name: AgentRouter 每日签到
 
 on:
-  schedule:
-    - cron: "10 1 * * *"   # 每天北京时间 09:10
   workflow_dispatch:
 
 jobs:
